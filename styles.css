@@ -1,0 +1,59 @@
+body {
+    background-image: url('/ASE220-02/Pet Images/pawsBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.container {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(14, 3, 3, 0.1); 
+    width: 80%;
+
+}
+
+.petImage {
+    width: 100%; 
+    height: auto;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+}
+
+
+
+.buttons:hover {
+    background-color: #5a5454; 
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px; 
+}
+
+
+
+.baxterDtls, .lunaDtls, .sandyDtls {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify; 
+}
+
+.table {
+    margin-top: 20px; 
+}
+
+.table th, .table td {
+    border: 2px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.btn-primary{
+    border-radius: 56px;
+}
+
+
